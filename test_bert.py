@@ -86,7 +86,7 @@ class TestedVisualBert:
         if self.trained_on == 'train':
             state_dict = torch.load(self.root + '/content/model_data/visual_bert.finetuned.vqa2.from_coco_train/model.pth')
         elif self.trained_on == 'train+val':
-            state_dict = torch.load(self.root + '/content/model_data/vlbert-train+val/pytorch_model_19.bin')
+            state_dict = torch.load(self.root + '/content/model_data/visual_bert.finetuned.vqa2.from_coco_train_val/model.pth')
         else:
             print('trained_on error')
         model_config = self.config.model_config.visual_bert
