@@ -2,11 +2,18 @@
 
 This the official implementation of CVPR 2021 paper *Perception Matters: Detecting Perception Failures of VQA Models Using Metamorphic Testing*.
 
-<!-- You can cite our work as:
+You can cite our work as:
 
 ```bibtex
-
-``` -->
+@InProceedings{Yuan_2021_CVPR,
+    author    = {Yuan, Yuanyuan and Wang, Shuai and Jiang, Mingyue and Chen, Tsong Yueh},
+    title     = {Perception Matters: Detecting Perception Failures of VQA Models Using Metamorphic Testing},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {16908-16917}
+}
+``` 
 
 😄 Detailed document is coming soon!
 
